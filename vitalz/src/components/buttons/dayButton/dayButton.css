@@ -1,0 +1,27 @@
+.day-button-container{
+    cursor: pointer;
+
+    width: 45px;
+    height: 45px;
+
+    background-color: var(--white);
+    border-radius: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.2s linear;
+
+    & h3{
+        pointer-events: none;
+    }
+}
+
+.day-button-selected{
+    background-color: var(--accent) !important;
+
+    & h3{
+        color: var(--white) !important;
+    }
+}

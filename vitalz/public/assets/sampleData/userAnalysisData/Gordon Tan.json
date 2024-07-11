@@ -1,0 +1,626 @@
+[
+    {
+        "HRVDate": "2024-07-10",
+        "VitalzScore": "62.16216216216216216200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "72"
+    },
+    {
+        "HRVDate": "2024-07-09",
+        "VitalzScore": "81.08108108108108108100",
+        "ScoreType": "Recovery",
+        "StressorIndex": "67"
+    },
+    {
+        "HRVDate": "2024-07-08",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "41"
+    },
+    {
+        "HRVDate": "2024-07-08",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "41"
+    },
+    {
+        "HRVDate": "2024-07-07",
+        "VitalzScore": "32.43243243243243243200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "71"
+    },
+    {
+        "HRVDate": "2024-07-06",
+        "VitalzScore": "45.94594594594594594600",
+        "ScoreType": "MildStress",
+        "StressorIndex": "73"
+    },
+    {
+        "HRVDate": "2024-07-05",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "35"
+    },
+    {
+        "HRVDate": "2024-07-04",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "77"
+    },
+    {
+        "HRVDate": "2024-07-03",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "25"
+    },
+    {
+        "HRVDate": "2024-07-02",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "35"
+    },
+    {
+        "HRVDate": "2024-07-01",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "82"
+    },
+    {
+        "HRVDate": "2024-06-30",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "58"
+    },
+    {
+        "HRVDate": "2024-06-29",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "65"
+    },
+    {
+        "HRVDate": "2024-06-28",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "72"
+    },
+    {
+        "HRVDate": "2024-06-27",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "35"
+    },
+    {
+        "HRVDate": "2024-06-26",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "50"
+    },
+    {
+        "HRVDate": "2024-06-25",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "38"
+    },
+    {
+        "HRVDate": "2024-06-24",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "62"
+    },
+    {
+        "HRVDate": "2024-06-23",
+        "VitalzScore": "78.37837837837837837800",
+        "ScoreType": "Recovery",
+        "StressorIndex": "47"
+    },
+    {
+        "HRVDate": "2024-06-22",
+        "VitalzScore": "62.16216216216216216200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "68"
+    },
+    {
+        "HRVDate": "2024-06-21",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "76"
+    },
+    {
+        "HRVDate": "2024-06-20",
+        "VitalzScore": "78.37837837837837837800",
+        "ScoreType": "Recovery",
+        "StressorIndex": "61"
+    },
+    {
+        "HRVDate": "2024-06-19",
+        "VitalzScore": "32.43243243243243243200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "64"
+    },
+    {
+        "HRVDate": "2024-06-18",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "68"
+    },
+    {
+        "HRVDate": "2024-06-17",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "58"
+    },
+    {
+        "HRVDate": "2024-06-16",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "67"
+    },
+    {
+        "HRVDate": "2024-06-15",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "64"
+    },
+    {
+        "HRVDate": "2024-06-14",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "84"
+    },
+    {
+        "HRVDate": "2024-06-13",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "62"
+    },
+    {
+        "HRVDate": "2024-06-12",
+        "VitalzScore": "62.16216216216216216200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "80"
+    },
+    {
+        "HRVDate": "2024-06-11",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "67"
+    },
+    {
+        "HRVDate": "2024-06-10",
+        "VitalzScore": "32.43243243243243243200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "33"
+    },
+    {
+        "HRVDate": "2024-06-09",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "77"
+    },
+    {
+        "HRVDate": "2024-06-08",
+        "VitalzScore": "83.78378378378378378400",
+        "ScoreType": "Recovery",
+        "StressorIndex": "58"
+    },
+    {
+        "HRVDate": "2024-06-07",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "80"
+    },
+    {
+        "HRVDate": "2024-06-06",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "82"
+    },
+    {
+        "HRVDate": "2024-06-05",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "81"
+    },
+    {
+        "HRVDate": "2024-06-04",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "73"
+    },
+    {
+        "HRVDate": "2024-06-03",
+        "VitalzScore": "81.08108108108108108100",
+        "ScoreType": "Recovery",
+        "StressorIndex": "50"
+    },
+    {
+        "HRVDate": "2024-06-02",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "72"
+    },
+    {
+        "HRVDate": "2024-06-01",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "60"
+    },
+    {
+        "HRVDate": "2024-05-31",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "55"
+    },
+    {
+        "HRVDate": "2024-05-30",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "63"
+    },
+    {
+        "HRVDate": "2024-05-29",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "59"
+    },
+    {
+        "HRVDate": "2024-05-28",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "68"
+    },
+    {
+        "HRVDate": "2024-05-27",
+        "VitalzScore": "45.94594594594594594600",
+        "ScoreType": "MildStress",
+        "StressorIndex": "82"
+    },
+    {
+        "HRVDate": "2024-05-26",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "65"
+    },
+    {
+        "HRVDate": "2024-05-25",
+        "VitalzScore": "86.48648648648648648600",
+        "ScoreType": "Recovery",
+        "StressorIndex": "63"
+    },
+    {
+        "HRVDate": "2024-05-24",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "77"
+    },
+    {
+        "HRVDate": "2024-05-23",
+        "VitalzScore": "32.43243243243243243200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "0"
+    },
+    {
+        "HRVDate": "2024-05-22",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "56"
+    },
+    {
+        "HRVDate": "2024-05-21",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "57"
+    },
+    {
+        "HRVDate": "2024-05-20",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "65"
+    },
+    {
+        "HRVDate": "2024-05-19",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "79"
+    },
+    {
+        "HRVDate": "2024-05-18",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "75"
+    },
+    {
+        "HRVDate": "2024-05-17",
+        "VitalzScore": "62.16216216216216216200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "50"
+    },
+    {
+        "HRVDate": "2024-05-16",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "68"
+    },
+    {
+        "HRVDate": "2024-05-15",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "45"
+    },
+    {
+        "HRVDate": "2024-05-14",
+        "VitalzScore": "32.43243243243243243200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "46"
+    },
+    {
+        "HRVDate": "2024-05-13",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "51"
+    },
+    {
+        "HRVDate": "2024-05-12",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "79"
+    },
+    {
+        "HRVDate": "2024-05-11",
+        "VitalzScore": "78.37837837837837837800",
+        "ScoreType": "Recovery",
+        "StressorIndex": "90"
+    },
+    {
+        "HRVDate": "2024-05-10",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "35"
+    },
+    {
+        "HRVDate": "2024-05-09",
+        "VitalzScore": "43.24324324324324324300",
+        "ScoreType": "MildStress",
+        "StressorIndex": "69"
+    },
+    {
+        "HRVDate": "2024-05-08",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "80"
+    },
+    {
+        "HRVDate": "2024-05-07",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "69"
+    },
+    {
+        "HRVDate": "2024-05-06",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "61"
+    },
+    {
+        "HRVDate": "2024-05-05",
+        "VitalzScore": "62.16216216216216216200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "71"
+    },
+    {
+        "HRVDate": "2024-05-04",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "71"
+    },
+    {
+        "HRVDate": "2024-05-03",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "54"
+    },
+    {
+        "HRVDate": "2024-05-02",
+        "VitalzScore": "62.16216216216216216200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "77"
+    },
+    {
+        "HRVDate": "2024-05-01",
+        "VitalzScore": "5.40540540540540540500",
+        "ScoreType": "Stress",
+        "StressorIndex": "68"
+    },
+    {
+        "HRVDate": "2024-04-30",
+        "VitalzScore": "81.08108108108108108100",
+        "ScoreType": "Recovery",
+        "StressorIndex": "69"
+    },
+    {
+        "HRVDate": "2024-04-29",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "70"
+    },
+    {
+        "HRVDate": "2024-04-28",
+        "VitalzScore": "32.43243243243243243200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "40"
+    },
+    {
+        "HRVDate": "2024-04-27",
+        "VitalzScore": "32.43243243243243243200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "86"
+    },
+    {
+        "HRVDate": "2024-04-26",
+        "VitalzScore": "78.37837837837837837800",
+        "ScoreType": "Recovery",
+        "StressorIndex": "89"
+    },
+    {
+        "HRVDate": "2024-04-25",
+        "VitalzScore": "32.43243243243243243200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "61"
+    },
+    {
+        "HRVDate": "2024-04-24",
+        "VitalzScore": "83.78378378378378378400",
+        "ScoreType": "Recovery",
+        "StressorIndex": "40"
+    },
+    {
+        "HRVDate": "2024-04-23",
+        "VitalzScore": "32.43243243243243243200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "89"
+    },
+    {
+        "HRVDate": "2024-04-22",
+        "VitalzScore": "62.16216216216216216200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "89"
+    },
+    {
+        "HRVDate": "2024-04-21",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "79"
+    },
+    {
+        "HRVDate": "2024-04-20",
+        "VitalzScore": "62.16216216216216216200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "98"
+    },
+    {
+        "HRVDate": "2024-04-19",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "50"
+    },
+    {
+        "HRVDate": "2024-04-18",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "85"
+    },
+    {
+        "HRVDate": "2024-04-17",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "75"
+    },
+    {
+        "HRVDate": "2024-04-16",
+        "VitalzScore": "78.37837837837837837800",
+        "ScoreType": "Recovery",
+        "StressorIndex": "31"
+    },
+    {
+        "HRVDate": "2024-04-15",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "21"
+    },
+    {
+        "HRVDate": "2024-04-14",
+        "VitalzScore": "81.08108108108108108100",
+        "ScoreType": "Recovery",
+        "StressorIndex": "100"
+    },
+    {
+        "HRVDate": "2024-04-13",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "100"
+    },
+    {
+        "HRVDate": "2024-04-12",
+        "VitalzScore": "62.16216216216216216200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "74"
+    },
+    {
+        "HRVDate": "2024-04-11",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "72"
+    },
+    {
+        "HRVDate": "2024-04-10",
+        "VitalzScore": "78.37837837837837837800",
+        "ScoreType": "Recovery",
+        "StressorIndex": "94"
+    },
+    {
+        "HRVDate": "2024-04-09",
+        "VitalzScore": "83.78378378378378378400",
+        "ScoreType": "Recovery",
+        "StressorIndex": "83"
+    },
+    {
+        "HRVDate": "2024-04-08",
+        "VitalzScore": "37.83783783783783783800",
+        "ScoreType": "MildStress",
+        "StressorIndex": "72"
+    },
+    {
+        "HRVDate": "2024-04-07",
+        "VitalzScore": "21.62162162162162162200",
+        "ScoreType": "Stress",
+        "StressorIndex": "98"
+    },
+    {
+        "HRVDate": "2024-04-06",
+        "VitalzScore": "86.48648648648648648600",
+        "ScoreType": "Recovery",
+        "StressorIndex": "74"
+    },
+    {
+        "HRVDate": "2024-04-05",
+        "VitalzScore": "62.16216216216216216200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "69"
+    },
+    {
+        "HRVDate": "2024-04-04",
+        "VitalzScore": "70.27027027027027027000",
+        "ScoreType": "Recovery",
+        "StressorIndex": "77"
+    },
+    {
+        "HRVDate": "2024-04-03",
+        "VitalzScore": "56.75675675675675675700",
+        "ScoreType": "MildStress",
+        "StressorIndex": "80"
+    },
+    {
+        "HRVDate": "2024-04-02",
+        "VitalzScore": "32.43243243243243243200",
+        "ScoreType": "MildStress",
+        "StressorIndex": "0"
+    },
+    {
+        "HRVDate": "2024-04-01",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "100"
+    },
+    {
+        "HRVDate": "2024-03-31",
+        "VitalzScore": "94.59459459459459459500",
+        "ScoreType": "Recovery",
+        "StressorIndex": "0"
+    },
+    {
+        "HRVDate": "2024-03-30",
+        "VitalzScore": "100.00000000000000000000",
+        "ScoreType": null,
+        "StressorIndex": "0"
+    }
+]

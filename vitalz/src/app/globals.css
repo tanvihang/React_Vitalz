@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --primary: #F8A129;
+  --primary-70: rgba(250, 180,82,0.7);
+  --secondary: #8A5700;
+  --accent: #625078;
+  --white: #FFFFFF;
+  --white-hover: #fcecd7;
+  --black: #311D02;
+
+  /* min 320px, max 1080px */
+  --screen-min-width: 32; 
+  --screen-max-width: 108;
+
+  /* h1 START */
+  --h1-max-size: 11.0;
+  --h1-min-size: 1.0;
+
+  --h1-slope: calc((var(--h1-max-size) - var(--h1-min-size)) / (var(--screen-max-width) - var(--screen-min-width)));
+  --h1-intersection: calc((-1 * var(--screen-min-width) * var(--h1-slope)) + var(--h1-min-size));
+  --h1-preferred: calc(var(--h1-intersection) + (var(--h1-slope) * 100));
+
+  --h1-min: calc(var(--h1-min-size) * 1rem);
+  --h1-mid: calc(var(--h1-preferred) * 1vw);
+  --h1-max: calc(var(--h1-max-size) * 1rem);
+
+  --h1-font-size: clamp(var(--h1-min), var(--h1-mid), var(--h1-max));
+  /* h1 END */
+
+  /* h2 START */
+  --h2-max-size: 5.9;
+  --h2-min-size: 3.8;
+
+  --h2-slope: calc((var(--h2-max-size) - var(--h2-min-size)) / (var(--screen-max-width) - var(--screen-min-width)));
+  --h2-intersection: calc((-1 * var(--screen-min-width) * var(--h2-slope)) + var(--h2-min-size));
+  --h2-preferred: calc(var(--h2-intersection) + (var(--h2-slope) * 100));
+
+  --h2-min: calc(var(--h2-min-size) * 1rem);
+  --h2-mid: calc(var(--h2-preferred) * 1vw);
+  --h2-max: calc(var(--h2-max-size) * 1rem);
+
+  --h2-font-size: clamp(var(--h2-min), var(--h2-mid), var(--h2-max));
+  /* h2 END */
+
+  /* h3 START */
+  --h3-max-size: 2.0;
+  --h3-min-size: 1.8;
+
+  --h3-slope: calc((var(--h3-max-size) - var(--h3-min-size)) / (var(--screen-max-width) - var(--screen-min-width)));
+  --h3-intersection: calc((-1 * var(--screen-min-width) * var(--h3-slope)) + var(--h3-min-size));
+  --h3-preferred: calc(var(--h3-intersection) + (var(--h3-slope) * 100));
+
+  --h3-min: calc(var(--h3-min-size) * 1rem);
+  --h3-mid: calc(var(--h3-preferred) * 1vw);
+  --h3-max: calc(var(--h3-max-size) * 1rem);
+
+  --h3-font-size: clamp(var(--h3-min), var(--h3-mid), var(--h3-max));
+  /* h3 END */
+
+  /* h4 START */
+  --h4-max-size: 1.6;
+  --h4-min-size: 1.6;
+
+  --h4-slope: calc((var(--h4-max-size) - var(--h4-min-size)) / (var(--screen-max-width) - var(--screen-min-width)));
+  --h4-intersection: calc((-1 * var(--screen-min-width) * var(--h4-slope)) + var(--h4-min-size));
+  --h4-preferred: calc(var(--h4-intersection) + (var(--h4-slope) * 100));
+
+  --h4-min: calc(var(--h4-min-size) * 1rem);
+  --h4-mid: calc(var(--h4-preferred) * 1vw);
+  --h4-max: calc(var(--h4-max-size) * 1rem);
+
+  --h4-font-size: clamp(var(--h4-min), var(--h4-mid), var(--h4-max));
+  /* h4 END */
+
+  /* h6 START */
+  --h6-max-size: 1.6;
+  --h6-min-size: 1.6;
+
+  --h6-slope: calc((var(--h6-max-size) - var(--h6-min-size)) / (var(--screen-max-width) - var(--screen-min-width)));
+  --h6-intersection: calc((-1 * var(--screen-min-width) * var(--h6-slope)) + var(--h6-min-size));
+  --h6-preferred: calc(var(--h6-intersection) + (var(--h6-slope) * 100));
+
+  --h6-min: calc(var(--h6-min-size) * 1rem);
+  --h6-mid: calc(var(--h6-preferred) * 1vw);
+  --h6-max: calc(var(--h6-max-size) * 1rem);
+
+  --h6-font-size: clamp(var(--h6-min), var(--h6-mid), var(--h6-max));
+  /* h6 END */
+
+  /* body START */
+  --body-max-size: 1.2;
+  --body-min-size: 1.2;
+
+  --body-slope: calc((var(--body-max-size) - var(--body-min-size)) / (var(--screen-max-width) - var(--screen-min-width)));
+  --body-intersection: calc((-1 * var(--screen-min-width) * var(--body-slope)) + var(--body-min-size));
+  --body-preferred: calc(var(--body-intersection) + (var(--body-slope) * 100));
+
+  --body-min: calc(var(--body-min-size) * 1rem);
+  --body-mid: calc(var(--body-preferred) * 1vw);
+  --body-max: calc(var(--body-max-size) * 1rem);
+
+  --body-font-size: clamp(var(--body-min), var(--body-mid), var(--body-max));
+  /* body END */
+}
+
+
+
+html{
+  /* make font size base to be 10px, because original is 16px */
+  font-size: 62.5%;
+
+}
+
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+
+  color: rgb(var(--foreground-rgb));
+  background: var(--white);
+
+  font-size: var(--body-font-size);
+  font-family: 'Futura', sans-serif;
+  color: var(--black);
+
+}
+
+h1{
+  font-size: var(--h1-font-size);
+  font-family: 'FuturaBold', sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+  color: var(--black);
+}
+
+h2{
+  font-size: var(--h2-font-size);
+  font-family: 'FuturaBold', sans-serif;
+  line-height: 1.4em;
+  color: var(--black);
+
+}
+
+h3{
+  font-size: var(--h3-font-size);
+  font-family: 'Futura', sans-serif;
+  letter-spacing: -0.07em;
+  line-height: 1.4em;
+  color: var(--black);
+
+}
+
+h4{
+  font-size: var(--h4-font-size);
+  font-family: 'Futura', sans-serif;
+  letter-spacing: 0.2;
+  line-height: 1.4em;
+  color: var(--black);
+
+}
+
+h6{
+  font-size: var(--h6-font-size);
+  font-family: 'Futura', sans-serif;
+  line-height: 1.4em;
+  color: var(--black);
+
+}
+
+p{
+  font-family: 'Futura', sans-serif;
+
+}
+
+/* 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base{
+  @font-face{
+    font-family: 'FuturaBold';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url(/assets/fonts/FuturaBoldfont.ttf) format('TrueType');
+  }
+
+  @font-face{
+    font-family: 'FuturaBoldItalic';
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url(/assets/fonts/FuturaBoldItalicfont.ttf) format('TrueType');
+  }
+
+  @font-face{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: medium;
+    font-display: swap;
+    src: url(/assets/fonts/futuramediumbt.ttf) format('TrueType');
+  }
+}

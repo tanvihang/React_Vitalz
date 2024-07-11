@@ -1,0 +1,150 @@
+@media only screen and (min-width : 1080px) {
+
+       /* Grid */
+       .main-section-container{
+
+        grid-template-columns: repeat(6, 1fr) !important;
+        gap: 16px;
+    
+        & .user-section{
+            grid-column: 1 / span 2 !important;
+        }
+
+        & .select-stat-section{
+            grid-column: 3 / span 4 !important;
+            
+        }
+
+        & .show-stat-section{
+            grid-column: 3 / span 4 !important;
+        }
+    } 
+
+    .transparent-box{
+        flex: 1;
+    }
+
+    .stat-selection-inner{
+        flex-direction: row!important;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .main-container{
+
+        padding: 8px 32px !important;
+    
+    }
+
+    .title-container{
+        & img{
+            display: block !important;
+        }
+    }
+
+    /* Grid */
+    .main-section-container{
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    
+        & .select-stat-section{
+            grid-column: 2 / span 2;
+        }
+
+        & .show-stat-section{
+            grid-column: 1 / span 3;
+        }
+    }
+
+    .transparent-box{
+        min-height: 200px;
+        max-height: 250px !important;
+    }
+
+    .hide-mobile{
+        display: block !important;
+    }
+
+    .stat-selection-inner{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+}
+
+.main-container{
+
+    height: fit-content;
+    width: 100vw;
+    
+    background-color: var(--primary);
+    border-radius: 30px 30px 0 0;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 8px 16px;
+
+}
+
+.container-up{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .up-shape{
+        width: 82px;
+        height: 8px;
+        background-color: var(--white);
+        border-radius: 30px;
+    }
+}
+
+.title-container{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    align-items: center;
+
+    & img{
+        display: none;
+    }
+}
+
+.main-section-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    z-index: 100;
+}
+
+.main-section-public{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.transparent-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
+
+    overflow: scroll;
+    
+    min-height: 200px;
+    max-height: 400px;
+    background-color: var(--primary-70);
+    border-radius: 30px;
+
+    padding: 8px 16px;
+}
+
+.hide-mobile{
+    display: none;
+}

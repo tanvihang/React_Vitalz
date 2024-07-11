@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1080px)  {
+    .header-button-conatainer{
+        font-family: 'Futura', sans-serif;
+        font-size: var(--body-font-size);
+    }
+}
+
+.header-button-conatainer{
+    cursor: pointer;
+
+    transition: color 0.2s linear;
+}
+
+.header-button-conatainer:hover{
+    color: #F8A129;
+}

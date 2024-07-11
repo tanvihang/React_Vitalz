@@ -1,0 +1,16 @@
+.info-frame-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.single-info-container{
+    display: flex;
+    flex-direction: column;
+
+    & h4{
+        color: var(--white);
+    }
+}

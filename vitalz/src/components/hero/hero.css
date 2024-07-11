@@ -1,0 +1,237 @@
+@media only screen and (min-width: 1080px) {
+    
+    .hero-inner-container{
+        align-items: start !important;
+    }
+
+    .hero-title{
+        & .title-one{
+            flex-direction: row !important;
+            gap: 8px !important;
+        }
+
+        & .purple-geo{
+            display: none;
+        }
+    
+        & .yellow-geo{
+            display: none;
+        }
+    }
+
+    .hero-info{
+        flex-direction: row!important;
+
+        width: 30% !important;
+
+        align-items: start !important;
+        
+        & h3{
+            text-align: start !important;
+        }
+    }
+
+    .biostrap-container{
+        display: block !important;
+        position: absolute;
+        right: 5vw;
+        bottom: 10vh;
+
+        z-index: -1;
+
+        transform: translateY(1000px);
+        transition: transform 2s;
+
+        & .biostrap-image{
+            /* position: absolute; */
+            max-inline-size: 100%;
+            block-size: auto;
+
+        }
+        
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .hero-container{
+        padding: 0 16px !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .hero-title{
+        
+        & .purple-geo{
+            top: 50vh !important;
+            right: 10vw !important;
+
+            transform: rotate(200deg);
+            
+            width: 36px !important;
+            height: 91px !important;
+
+        }
+    
+        & .yellow-geo{
+            bottom: 15vh !important;
+            right: 25vw !important;
+    
+            transform: rotateX(180deg);
+    
+            width: 49px !important;
+            height: 136px !important;
+
+        }
+    }
+
+    .hero-info{
+        width: 50% !important;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+
+        text-align: center !important;
+    }
+
+    .geometry1-container{
+        display: block !important;
+
+        z-index: -1;
+    }
+
+}
+
+.hero-container{
+    height: calc(95vh - 64px);
+    width: 100vw;
+
+    padding: 0 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    position: relative;
+    
+    animation: hero-container 2s linear forwards;
+    animation-timeline: view();
+    animation-range-start: 100vh;
+    z-index: -1;
+
+}
+
+@keyframes hero-container {
+    to{
+        transform: scale(80%) translateY(80%);
+        opacity: 0.5;
+    }
+}
+
+
+
+.hero-inner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 64px;
+}
+
+.hero-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & .hero-title-clip{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    & .title-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    & .purple-geo{
+        position: absolute;
+        top: 20vh;
+        right: 10vw;
+
+        width: 25px;
+        height: 42px;
+        background-color: var(--accent);
+        border-radius: 50px 0 50px 0;
+        box-shadow: 0 1px 31px 48px var(--accent);
+    }
+
+    & .yellow-geo{
+        position: absolute;
+        bottom: 20vh;
+        right: 15vw;
+
+        transform: rotateX(180deg);
+
+        width: 25px;
+        height: 42px;
+        background-color: var(--primary);
+        border-radius: 50px 0 50px 0;
+        box-shadow: 0 1px 31px 48px var(--primary);
+    }
+}
+
+.hero-info{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+
+
+    text-align: center;
+
+}
+
+.geometry1-container{
+    display: none;
+}
+
+.biostrap-container{
+    display: none;
+}
+
+.char{
+    transform: translateY(-100px);
+    transition: transform .5s;
+}
+
+.info-animate{
+    transform: translateX(-1000px);
+    transition: transform 1.5s;
+
+}
+
+#scroll-text{
+    animation: scroll-text 4s linear infinite;
+}
+
+@keyframes scroll-text{
+    20%{
+        transform: translateY(2px);
+    }
+    20%{
+        transform: translateY(-2px);
+    }
+    60%{
+        transform: translateY(2px);
+    }
+    80%{
+        transform: translateY(-2px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

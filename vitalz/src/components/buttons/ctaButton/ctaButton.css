@@ -1,0 +1,30 @@
+.button-container{
+    cursor: pointer;
+
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 38px;
+    padding: 5px;
+
+    transition: all 0.2s linear;
+
+    & h3, h4{
+        pointer-events: none;
+    }
+}
+
+/* .button-container:hover{
+    background-color: var(--white-hover);
+} */
+
+.button-container-click{
+    background-color: var(--accent);
+
+    & h3, h4{
+        color: var(--white);
+    }
+}
