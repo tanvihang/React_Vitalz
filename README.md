@@ -20,7 +20,7 @@
 
 The company website: https://vitalz.asia/
 
-![alt text](assets/image.png)
+<image src = "./assets/image.png" height="500"/>
 
 ## Thoughts and Keypoint
 1. After looking through the company website, notice several things can be better and got some idea from the original theme.
@@ -32,18 +32,18 @@ The company website: https://vitalz.asia/
 
 ## Design
 1. Typography - i've choosen the beautiful **sans-serif** -  **Futura** font, the reason behind it is because it's easily **readable**, give a sense of **trustable**, and it's **modern**
-![alt text](assets/image-1.png)
-2. Colors - as stated as before, the primary color remain the <span style="color:#F8A129;">same</span>, but for secondary, accent, black etc i've choosen others to be harmonious.
-![alt text](assets/image-2.png)
-3. High-fidelity design
-![alt text](assets/image-4.png)
+<image src = "./assets/image-1.png" height="300"/>
+3. Colors - as stated as before, the primary color remain the <span style="color:#F8A129;">same</span>, but for secondary, accent, black etc i've choosen others to be harmonious.
+<image src = "./assets/image-2.png" height="300"/>
+5. High-fidelity design
+<image src = "./assets/image-4.png" height="500"/>
 
 In this **framer** design, i've used a lot of rounded corner element to mimic the feeling of modern phone application. Also there is **three version of design** including (computer 1080px, tablet 768px and phone 320px) which are mostly enough for current situation.
 
 As you can see in the design, instead of rendering all user data at the same time, i've choosen the approach to let user to choose a date to show the data, this will make the page less crowded and interactive!
 
 For mobile version of choosing stats to view, i've designed a selector to let user switch between **sleep data** and **user analysis**.
-![alt text](assets/selector.gif)
+<image src = "./assets/selector.gif" height="500"/>
 
 
 
