@@ -1,8 +1,9 @@
 # Vitalz Project
 ## Showcase
-![alt text](assets/mobile.gif)
 
-![alt text](assets/desktop.gif)
+<image src = "./assets/mobile.gif" height="500"/>
+
+<image src = "./assets/desktop.gif" height="300"/>
 
 ## How to run
 1. pull this repo
